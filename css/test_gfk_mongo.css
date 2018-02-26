@@ -1,0 +1,14 @@
+.dropdown-menu {
+    width: 100%;
+}
+
+.scrollable-menu {
+    height: auto;
+    width: auto;
+    max-height: 200px;
+    overflow-x: hidden;
+}
+
+.sibling-menu {
+    margin-left: 50px;
+}

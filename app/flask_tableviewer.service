@@ -1,0 +1,10 @@
+[Unit]
+Description=Flask table viewer
+After=syslog.target
+
+[Service]
+ExecStart=/home/chiwen/.local/bin/uwsgi --ini /home/chiwen/java/IREPORT/iReportServer/tableviewer/deployer/app_uwsgi.ini
+Restart=on-abort
+
+[Install]
+WantedBy=multi-user.target
